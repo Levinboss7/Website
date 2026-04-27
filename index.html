@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebap-Haus Winnweiler | Frisch, schnell, lecker</title>
+    <meta
+      name="description"
+      content="Kebap-Haus Winnweiler: Döner, Dürüm, Lahmacun, Falafel, Salate und Getränke. Jetzt anrufen, bestellen und abholen."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">Kebap-Haus Winnweiler</a>
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">
+          Menü
+        </button>
+        <nav class="desktop-nav" aria-label="Hauptnavigation">
+          <a href="#speisen">Speisen</a>
+          <a href="#warum">Warum wir</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile Navigation">
+        <a href="#speisen">Speisen</a>
+        <a href="#warum">Warum wir</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Frisch zubereitet in Winnweiler</p>
+            <h1>Leckerer Döner, schneller Service, herzliches Team.</h1>
+            <p class="hero-text">
+              Ob Mittagspause oder Abendessen: Bei uns bekommst du klassische Favoriten wie Döner,
+              Dürüm, Lahmacun und Falafel – frisch, zuverlässig und zum fairen Preis.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="tel:+496302923593">Jetzt anrufen: 06302 923593</a>
+              <a
+                class="btn btn-secondary"
+                href="https://maps.google.com/?q=Schlossstr.+38,+67722+Winnweiler"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Route starten</a
+              >
+            </div>
+            <ul class="trust-list">
+              <li>✅ Abholung vor Ort</li>
+              <li>✅ Zentrale Lage in der Schloßstraße 38</li>
+              <li>✅ Warme Küche zu langen Öffnungszeiten</li>
+            </ul>
+          </div>
+          <aside class="info-card" aria-label="Öffnungszeiten und Adresse">
+            <h2>Öffnungszeiten</h2>
+            <p><strong>Montag – Freitag:</strong> 11:00 – 22:00 Uhr</p>
+            <p><strong>Sonntag & Feiertage:</strong> 13:00 – 22:00 Uhr</p>
+            <p><strong>Samstag:</strong> Ruhetag</p>
+            <hr />
+            <h2>Adresse</h2>
+            <p>Schloßstraße 38<br />67722 Winnweiler</p>
+            <p class="small">Inhaberin: Sevda Haci</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="speisen" class="section">
+        <div class="container">
+          <h2>Unsere Speisen</h2>
+          <p class="section-intro">Beliebt bei Stammkunden und Erstbesuchern.</p>
+          <div class="card-grid">
+            <article class="food-card">
+              <h3>Döner-Kebap</h3>
+              <p>Der Klassiker: frisch, würzig, mit knackigem Salat und Sauce nach Wahl.</p>
+            </article>
+            <article class="food-card">
+              <h3>Döner-Teller</h3>
+              <p>Viel Geschmack für den großen Hunger – perfekt als Hauptmahlzeit.</p>
+            </article>
+            <article class="food-card">
+              <h3>Dürüm & Lahmacun</h3>
+              <p>Herzhaft, frisch gerollt und ideal für unterwegs.</p>
+            </article>
+            <article class="food-card">
+              <h3>Falafel & Salate</h3>
+              <p>Vegetarische Optionen und frische Beilagen für jeden Geschmack.</p>
+            </article>
+          </div>
+          <p class="menu-note">
+            Vollständige Speisekarte ansehen:
+            <a href="https://www.kebap-haus-winnweiler.de/main/amain-speisekarte0.html" target="_blank" rel="noopener noreferrer"
+              >Zur aktuellen Karte</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="warum" class="section section-alt">
+        <div class="container">
+          <h2>Warum Kunden gerne wiederkommen</h2>
+          <div class="reasons-grid">
+            <article>
+              <h3>Klare Informationen</h3>
+              <p>Alle wichtigen Infos auf einen Blick: Öffnungszeiten, Adresse und Kontakt.</p>
+            </article>
+            <article>
+              <h3>Schnelle Bestellung</h3>
+              <p>Ein Klick zum Anruf – ideal für Vorbestellungen und kurze Wartezeiten.</p>
+            </article>
+            <article>
+              <h3>Moderner Eindruck</h3>
+              <p>Übersichtliches Design für Smartphone und Desktop schafft Vertrauen sofort.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Kontakt</h2>
+            <p><strong>Kebap-Haus Winnweiler</strong><br />Schloßstraße 38, 67722 Winnweiler</p>
+            <p>
+              Telefon:
+              <a href="tel:+496302923593">06302 923593</a>
+            </p>
+            <p>
+              E-Mail:
+              <a href="mailto:sevda-haci@t-online.de">sevda-haci@t-online.de</a>
+            </p>
+          </div>
+          <div class="map-embed">
+            <iframe
+              title="Standort Kebap-Haus Winnweiler"
+              src="https://www.google.com/maps?q=Schlossstra%C3%9Fe+38,+67722+Winnweiler&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Kebap-Haus Winnweiler</p>
+        <div>
+          <a href="https://www.kebap-haus-winnweiler.de/main/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+          <a href="https://www.kebap-haus-winnweiler.de/main/dmain-datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
